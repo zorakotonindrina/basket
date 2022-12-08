@@ -1,0 +1,12 @@
+ <!-- <% for(int i=0; i<gam1.lenght; i++) { %>
+                    <tr>
+                        <td width="70"><% out.println(gam1[i].getNom());%></td>
+                        <td><% out.println(gam1[i].Points(con,"T"));%></td>
+                        <td> <% out.println(gam1[i].getTentativeOk(con,"T") +"/"+gam1[i].getTentative(con,"T"));%> </td>
+                        <td> <% out.println(gam1[i].getTentativeNull(con,"R")); %></td> 
+                        <td> <% out.println(gam1[i].getTentativeOk(con,"R")); %> </td>
+                        <td> <% out.println(gam1[i].getTentativeOk(con,"P")); %> </td>
+                    </tr>
+                   <%
+                   }
+                   %> -->
